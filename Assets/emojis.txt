@@ -1,0 +1,66 @@
+Here are some emojis that can be useful for developers, especially when creating user interfaces, documentation, or coding comments:
+
+### Navigation & Actions
+- 🏠 Home: `🏠`
+- ⚙️ Settings: `⚙️`
+- 📄 Document: `📄`
+- 🔍 Search: `🔍`
+- ➕ Add: `➕`
+- ➖ Remove: `➖`
+- ↔️ Move (left-right): `↔️`
+- ↕️ Move (up-down): `↕️`
+- ⬆️ Move Up: `⬆️`
+- ⬇️ Move Down: `⬇️`
+- ⬅️ Move Left: `⬅️`
+- ➡️ Move Right: `➡️`
+- 🗑️ Delete: `🗑️`
+- 🛠️ Tools: `🛠️`
+- 📝 Edit: `📝`
+- 🚀 Deploy: `🚀`
+
+### Status & Feedback
+- ✅ Success: `✅`
+- ❌ Error: `❌`
+- ⚠️ Warning: `⚠️`
+- ℹ️ Information: `ℹ️`
+- 🔄 Refresh/Reload: `🔄`
+- ⏳ Loading: `⏳`
+- 🛑 Stop: `🛑`
+- 🕒 Time: `🕒`
+
+### File Types & Formats
+- 🗃️ Archive: `🗃️`
+- 📦 Package: `📦`
+- 📊 Data: `📊`
+- 📁 Folder: `📁`
+- 📂 Open Folder: `📂`
+- 🗂️ File Organizer: `🗂️`
+
+### Coding & Development
+- 💻 Computer: `💻`
+- 🖥️ Desktop: `🖥️`
+- 📱 Mobile: `📱`
+- 🖱️ Mouse: `🖱️`
+- ⌨️ Keyboard: `⌨️`
+- 🔧 Wrench (for fixing): `🔧`
+- 🛡️ Security: `🛡️`
+- 💾 Save: `💾`
+- 🧩 Module/Component: `🧩`
+
+### Communication & Collaboration
+- 💬 Comment: `💬`
+- 📨 Message: `📨`
+- 📣 Announcement: `📣`
+- 📢 Broadcast: `📢`
+- 🧑‍🤝‍🧑 Team: `🧑‍🤝‍🧑`
+- 🛎️ Notification: `🛎️`
+- 📅 Calendar: `📅`
+- 📌 Pin: `📌`
+
+### Miscellaneous
+- 🔗 Link: `🔗`
+- 🔒 Lock: `🔒`
+- 🔓 Unlock: `🔓`
+- 🌐 Web: `🌐`
+- 💡 Idea: `💡`
+- 🏷️ Tag: `🏷️`
