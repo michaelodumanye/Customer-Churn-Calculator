@@ -11,41 +11,30 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("ChurnXplorer: Your Number One Power ML model to Cut Customer Churn ✂️")
-#define function to get animation
-def lottie_url(url:str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+st.title("RetentionRadar: Churn Insights, Retention Loyalty ✂️")
 
 
-lottie_img = lottie_url("https://lottie.host/80d6a368-c787-4f59-8eca-9b649cf41b1b/VdfzfJeXsp.json")
+mp4_video_url= "./Assets/customer_retention.mp4"
+
+# Embed the MP4 video in the Streamlit app
+# st.video(mp4_video_url, format="video/mp4", start_time=0)
 
 
 #intro talking about title 
 with st.container():
     col1,col2 = st.columns(2)
     with col1:
-        st.title("About us")
-        st.write("##### We are leading professionals with a diverse portfolio range⭐⭐⭐⭐⭐")
+        st.title("Who We Are")
+        st.write("##### We are a group of experienced Data Scientists who empower organizations with data-driven strategies for sustainable growth⭐⭐⭐⭐⭐")
         st.markdown("""
                     ###### Our group of experts in the team operate with the following objectives:
 
-                    - ###### Explore our clients data thoroughly and decide on the most efficient classification models.
-                    - ###### Find the lifetime value of each customer and know what factors affect the rate at which customers exit a company.
-                    - ###### Predict if a customer will churn or not.""")
+                    - ######  Focused on helping businesses enhance customer loyalty and reduce turnover.
+                    - ###### Enabling proactive measures to maintain a loyal customer base.
+                    - ######  Committed to driving your business success through improved retention rates.""")
     with col2:
-           st_lottie(
-    lottie_img,
-    speed=1,
-    reverse= False,
-    loop=True,
-    quality="high",
-    key="coding",
-    height=400,
-    width=500 )
-    
+        st.video(mp4_video_url, format="video/mp4", start_time=0, loop= True,  autoplay= True)
+     
 
     col1,col2 = st.columns(2)
     with col1:
@@ -104,8 +93,8 @@ with st.container():
             st.markdown(f'<a href="https://github.com/parockson" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">GitHub</button></a>', unsafe_allow_html=True)
             st.markdown(f'<a href="https://www.linkedin.com/in/prince-acquah-rockson" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">LinkedIn</button></a>', unsafe_allow_html=True)
         with col4:
-            st.markdown(f'<a href="https://medium.com/@adubrightkwarrteng11" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Medium</button></a>', unsafe_allow_html=True)
-            st.markdown(f'<a href="https://drive.google.com/file/d/1q7vbLx-lmm-etNnOyQVvK_WskIxnZmIV/view?usp=drive_link" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Resume</button></a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="https://medium.com/parockson" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Medium</button></a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="princerockson.netlify.app" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Website</button></a>', unsafe_allow_html=True)
     with col2:
         st.header("Explore")
         st.write("With our powerful machine learning algorithms, you could also try to predict whether a customer will churn or not with you own dataset!")
