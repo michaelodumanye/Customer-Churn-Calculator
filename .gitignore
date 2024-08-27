@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 /app.drawio
+=======
+/venv
+/.streamlit
+/app.drawio
+
+>>>>>>> friend/setup
