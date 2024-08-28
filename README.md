@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Customer-Churn-Calculator.git
+   git clone https://github.com/michaelodumanye/Customer-Churn-Calculator.git
    cd Customer-Churn-Calculator
    ```
 
