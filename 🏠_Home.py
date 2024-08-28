@@ -86,14 +86,14 @@ with st.container():
     with col1:
         st.header("Contact Me")
         st.write("""
-                 contact me at parockson@gmail.com for collaborations © 2024. All rights reserved    
+                 contact me at modumanye@gmail.com for collaborations © 2024. All rights reserved    
         """)
         col3,col4 = st.columns(2)
         with col3:
-            st.markdown(f'<a href="https://github.com/parockson" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">GitHub</button></a>', unsafe_allow_html=True)
-            st.markdown(f'<a href="https://www.linkedin.com/in/prince-acquah-rockson" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">LinkedIn</button></a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="https://github.com/michaelodumanye" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">GitHub</button></a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="https://www.linkedin.com/in/michael-odumanye" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">LinkedIn</button></a>', unsafe_allow_html=True)
         with col4:
-            st.markdown(f'<a href="https://medium.com/parockson" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Medium</button></a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="https://medium.com/@modumanye" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Medium</button></a>', unsafe_allow_html=True)
             st.markdown(f'<a href="princerockson.netlify.app" target="_blank"><button style="background-color:Red; border:none; border-radius: 5px;">Website</button></a>', unsafe_allow_html=True)
     with col2:
         st.header("Explore")
